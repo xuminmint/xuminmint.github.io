@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02-JS-Button BY Kewailn</title>
+    <script>
+        function button_click() {
+            window.confirm('Hello')
+            
+        }
+    </script>
+</head>
+<body>
+    <div class="content m-5" >
+    <p><input type="button" value="Click Me" name="" id="" onclick="document.write('Hello')"></p>
+    
+    <p><input type="button" value="Click Here" name="" id="" onclick="window.alert('Hello')"></p>
+    
+    <p><button class="button is-danger" type="button" onclick="window.confirm"('Hello') type="button" onclick="window.alert('World')">กดตรงนี้</button></p>
+
+    <button class="button is-success" type="button" onclick="button_click()">Submit</button>
+</div>
+        <br>
+        <br>
+
+    <div class="buttons">
+        <button class="button is-primary">Primary</button>
+         <button class="button is-link">Link</button>
+        </div>
+          
+        <div class="buttons">
+         <button class="button is-info">Info</button>
+        <button class="button is-success">Success</button>
+        <button class="button is-warning">Warning</button>
+        <button class="button is-danger">Danger</button>
+          </div>
+
+</body>
+</html>
